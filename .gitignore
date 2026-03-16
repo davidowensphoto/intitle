@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# local VSCode settings
+.vscode/
+
+# optional content dirs not tracked
+content/.DS_Store
+content/images/
