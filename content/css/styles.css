@@ -45,3 +45,34 @@ a {
   font-weight: <weight>;
   font-style: normal;
 }
+
+h1 {
+  color: var(--Base);
+  font-family: montserrat;
+  line-height: 130%;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+h2 {
+  color: var(--Base);
+  font-family: montserrat;
+  line-height: 130%;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+p {
+    /* Adds spacing between paragraphs so they don't bunch up */
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-family: roboto;
+    font-weight: 500;
+    /* Limits the width of text blocks for better readability */
+    max-width: 70ch;
+
+    
+
+    /* Improves word spacing and kerning */
+    text-rendering: optimizeLegibility;
+}
