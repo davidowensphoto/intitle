@@ -1,1 +1,47 @@
+:root {
+  --Base: #164E63; /* new depth brand color */
+  --Warmth: #D97706; /*  */
+  --White: #fff; /* */
+  --Orange: #FBAD4D; /*  */
+  --Cream: #FEEFDB; /*  */
+  --Gray: #94A3B8; /*  */
+  --Tan: #FEEFDB; /*  */
+  --Text-Default: #1E1E1E; /*  */
+  
+}
 
+* {
+  font-family: Montserrat, Roboto, sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  all: unset;
+}
+
+
+// <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
